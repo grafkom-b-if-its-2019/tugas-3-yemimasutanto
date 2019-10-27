@@ -1,4 +1,6 @@
 # Tugas 3 - Animasi Huruf dalam Kubus
+## Yemima Sutanto
+## 05111740000049
 
 1. Klik tautan Tugas 3 di Github Classroom berikut ini: https://classroom.github.com/a/alLOtxnI
 2. Inisiasi Commit dengan hasil pekerjaan Anda yang lalu (Tugas 2: Animasi Huruf Depan Nama)
@@ -7,3 +9,10 @@
 
 ## Ilustrasi
 ![TugasIndividu3](https://user-images.githubusercontent.com/36811988/67642523-2f1a0100-f93f-11e9-972c-d0cb9edab4c9.png)
+
+## Deadline Pengerjaan
+Selasa, 29 Oktober 2019, 12.00 A.M.
+
+## Referensi
+* https://glmatrix.net/docs
+* https://www.tutorialspoint.com/webgl/index.htm
