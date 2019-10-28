@@ -370,14 +370,14 @@ let NTransMatrix = mat4.create()
 
 //biar mantul
 let NStartPos = [
-    [-2.0, 3.0, 0.0],   //3
-    [2.0, 3.0, 0.0],    //10
-    [2.0, -3.0, 0.0],   //8
-    [-2.0, -3.0, 0.0],   //2 
-    [-2.0, 3.0, -1.0],   //3
-    [2.0, 3.0, -1.0],    //10
-    [2.0, -3.0, -1.0],   //8
-    [-2.0, -3.0, -1.0],   //2 
+    [-2.0, 3.0, 0.0],
+    [2.0, 3.0, 0.0],
+    [2.0, -3.0, 0.0],
+    [-2.0, -3.0, 0.0], 
+    [-2.0, 3.0, -1.0],
+    [2.0, 3.0, -1.0],
+    [2.0, -3.0, -1.0],
+    [-2.0, -3.0, -1.0], 
 ]
 
 //draw kubus
@@ -428,34 +428,6 @@ function handleKeyUp(event) {
 }
 function handleKeyDown(event) {
     currentPressedKeys[event.keyCode] = true
-}
-function handleKeys() {
-    if (currentPressedKeys[79]) {
-        //O
-        z -= 0.5
-        console.log('O')
-    }
-    if (currentPressedKeys[73]) {
-        //I
-        z += 0.5
-        console.log('I')
-    }
-    if (currentPressedKeys[37]) {
-        //kiri
-        ySpeed -= 1
-    }
-    if (currentPressedKeys[39]) {
-        //kanan
-        ySpeed += 1
-    }
-    if (currentPressedKeys[38]) {
-        //atas
-        xSpeed -= 1
-    }
-    if (currentPressedKeys[40]) {
-        //bawah
-        xSpeed += 1
-    }
 }
 
 function handleMouseDown(event) {
@@ -639,7 +611,7 @@ function animate() {
 }
 function tick() {
     requestAnimationFrame(tick)
-    handleKeys()
+    // handleKeys()
     drawScene()
     animate()
 }
